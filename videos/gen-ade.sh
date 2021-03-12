@@ -48,3 +48,6 @@ $FFMPEG -loglevel warning -stats -i ade-100-900x506.mkv -i ade-90x50-900x506.mkv
 $FFMPEG -loglevel warning -stats -i ade-frames/ade-001.png -q 0 ade-900x506.jpg -y
 $FFMPEG -loglevel warning -stats -i ade-100-420x236.mkv -i ade-90x50-420x236.mkv -filter_complex "[0:v][1:v]hstack=inputs=2[v]" -map "[v]" -ss 2 -frames:v 1 -q 0 ade-sbs-820x236.jpg -y
 $FFMPEG -loglevel warning -stats -i ade-100-900x506.mkv -i ade-90x50-900x506.mkv -filter_complex "[0:v][1:v]hstack=inputs=2[v]" -map "[v]" -ss 2 -frames:v 1 -q 0 ade-sbs-1800x506.jpg -y
+
+#
+# $FFMPEG -loglevel warning -stats -r:v 240/1 -i ade-border-1920x1080.mp4 -vf scale=840:472 -r 12/1 ade-border-840x472.webp

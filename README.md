@@ -7,11 +7,11 @@
 
 # jsFractalZoom
 
-## Welcome to the Wonderful World of (fractal) zooming and video codec.
+## Welcome to the Wonderful World of (fractal) zooming and splash video codec
 
 *When illustrations are 193x larger than the code*
 
-This project contains the media files for project `jsFractalZoom` [https://github.com/RockingShip/jsFractalZoom](https://github.com/RockingShip/jsFractalZoom)
+This project contains the media files for: [https://github.com/RockingShip/jsFractalZoom](https://github.com/RockingShip/jsFractalZoom)
 
 ## Manifest
 
@@ -40,7 +40,6 @@ This project contains the media files for project `jsFractalZoom` [https://githu
     Video displaying how `splash` constructs a single frame of "ADE".  
     The border displays processed scan row/columns.  
     The number in the lower left corner is progress (ranging 0-1).  
-    `ffmpeg -loglevel warning -stats -r:v 240/1 -i ade-border-1920x1080.mp4 -vf scale=840:472 -r 12/1 ade-border-840x472.webp`
 
 ## Versioning
 
