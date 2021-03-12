@@ -7,5 +7,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## Unreleased
 
 ```
+2021-03-12 15:26:15 Added: `gallery/`.
 2021-03-01 20:57:45 Initial commit.
 ```
