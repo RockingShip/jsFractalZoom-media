@@ -43,6 +43,7 @@ $FFMPEG -loglevel warning -stats -r 30 -i splash-ade-100-900x506.mkv  -vf scale=
 echo SBS
 $FFMPEG -loglevel warning -stats -i ade-100-420x236.mkv -i ade-90x50-420x236.mkv -filter_complex "[0:v][1:v]hstack=inputs=2[v]" -map "[v]" -q:v 85 ade-sbs-820x236.webp -y
 $FFMPEG -loglevel warning -stats -i ade-100-900x506.mkv -i ade-90x50-900x506.mkv -filter_complex "[0:v][1:v]hstack=inputs=2[v]" -map "[v]" -q:v 85 ade-sbs-1800x506.webp -y
+$FFMPEG -loglevel warning -stats -i ade-100-900x506.mkv -i ade-90x50-900x506.mkv -filter_complex "[0:v][1:v]hstack=inputs=2[v]" -map "[v]" -crf 18 -profile:v baseline -level 3.0 -movflags +faststart -pix_fmt yuv420p ade-sbs-1800x506.mp4 -y
 
 # preview
 $FFMPEG -loglevel warning -stats -i ade-frames/ade-001.png -q 0 ade-900x506.jpg -y

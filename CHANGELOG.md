@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## Unreleased
 
 ```
+2021-03-12 23:53:18 Added: `???-sbs-1800x506.mp4`.
 2021-03-12 20:03:21 Added: `index.html`.
 2021-03-12 17:25:33 Added: `videos/'.
 2021-03-12 15:26:15 Added: `gallery/`.
