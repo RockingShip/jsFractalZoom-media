@@ -1,13 +1,21 @@
-\[click on image to start `zoomer` at shown position\]  
-[![favimage.jpg](assets/favimage-840x472.jpg)](https://rockingship.github.io/jsFractalZoom/jsFractalZoom.html?x=-1.4858120997711768&y=0.03723940037753004&r=2.664650726631176e-11&a=0&density=0.1227&iter=6000&theme=6&seed=140161044)
+---
+layout: home
+title: "jsFractalZoom-media - Media files for `jsFractalZoom`"
+image: assets/favimage-840x472.jpg
+---
+
+\[click on image to start `zoomer` at shown location\]  
+[![favimage](assets/favimage-840x472.jpg)](https://rockingship.github.io/jsFractalZoom?x=-0.8665722560433728&y=0.2308933773688535&r=3.021785750590329e-7&a=0&density=0.0362&iter=10080&theme=6&seed=2140484823)
+
+# jsFractalZoom-media
+
+Media files for `jsFractalZoom` (https://github.com/RockingShip/jsFractalZoom)
 
 !!  
 !! This repository contains about 800M of media files  
 !!
 
-# jsFractalZoom
-
-## Welcome to the Wonderful World of (fractal) zooming and splash video codec
+### Welcome to the Wonderful World of (fractal) zooming and splash video codec
 
 *When illustrations are 193x larger than the code*
 
@@ -37,6 +45,18 @@ This project contains the media files for: [https://github.com/RockingShip/jsFra
     Video displaying how `splash` constructs a single frame of "ADE".  
     The border displays processed scan row/columns.  
     The number in the lower left corner is progress (ranging 0-1).  
+
+## Source code
+
+This repository contains about 800M of media files.
+
+Checkout the latest code:
+
+```sh
+  git clone https://github.com/RockingShip/jsFractalZoom-media.git
+```
+
+There are no releases due to their size.
 
 ## Versioning
 
