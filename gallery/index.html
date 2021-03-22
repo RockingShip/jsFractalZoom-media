@@ -1,31 +1,50 @@
 <!DOCTYPE html>
-<!--
- * MIT License
- *
- * Copyright (c) 2020 xyzzy@rockingship.org
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in all
- * copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
- * SOFTWARE.
--->
 <html lang="en">
 <head>
-	<title>jsFractalZoom image gallery</title>
 	<meta charset="UTF-8">
+
+	<!--
+	 * MIT License
+	 *
+	 * Copyright (c) 2020 xyzzy@rockingship.org
+	 *
+	 * Permission is hereby granted, free of charge, to any person obtaining a copy
+	 * of this software and associated documentation files (the "Software"), to deal
+	 * in the Software without restriction, including without limitation the rights
+	 * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	 * copies of the Software, and to permit persons to whom the Software is
+	 * furnished to do so, subject to the following conditions:
+	 *
+	 * The above copyright notice and this permission notice shall be included in all
+	 * copies or substantial portions of the Software.
+	 *
+	 * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	 * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	 * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	 * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	 * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	 * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+	 * SOFTWARE.
+	-->
+
+	<title>jsFractalZoom image gallery</title>
+	<meta property="og:title" content="jsFractalZoom image gallery">
+	<meta name="description" content="Collection of interesting places">
+	<meta property="og:description" content="Collection of interesting places">
+	<link rel="shortcut icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+	<link rel="shortcut icon" type="image/png" sizes="152x152" href="assets/favicon-152.png">
+	<link rel="shortcut icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+	<link rel="apple-touch-icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+	<link rel="apple-touch-icon" type="image/png" sizes="152x152" href="assets/favicon-152.png">
+	<link rel="apple-touch-icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+	<meta property="og:url" content="https://rockingship.github.io/jsFractalZoom-media/gallery/index.html">
+	<meta property="og:image" content="https://rockingship.github.io/jsFractalZoom-media/assets/favimage-480x270.jpg">
+	<meta property="og:type" content="website">
+	<meta property="og:locale" content="en_GB">
+	<meta name="twitter:card" content="summary_large_image"/>
+	<meta property="twitter:title" content="jsFractalZoom image gallery - Collection of interesting places"/>
+	<meta property="twitter:image" content="https://rockingship.github.io/jsFractalZoom-media/assets/favimage-480x270.jpg"/>
+
 	<style>
 		body {
 			font-family: Verdana, Geneva, sans-serif;
@@ -60,10 +79,12 @@
 </head>
 <body>
 <h1>jsFractalZoom image gallery</h1>
+
 <p>Click on the image to view a pre-rendered 3840x2160 image, or alternatively, click on the link to open the zoomer for that location.</p>
 <p>The pre-rendered images contain encoded navigation information. Drop them onto a zoomer page to navigate there.</p>
 <p>These images are standard Mandelbrot set snaps and therefore fall under Creative Commons 1.0 license. The software (jsFractalZoom) is AGPL licensed.</p>
 
+<!-- ffmpeg -i demo-X.png -vf scale=480:-1  thumbs/demo-X.jpg -->
 
 <figure><p><a href="demo-01.png" target="_blank"><img src="thumbs/demo-01.jpg"></a><figcaption><a href="https://rockingship.github.io/jsFractalZoom?x=-0.6702091879033242&y=0.458060975296821&r=1.3844843074877433e-11&a=0&density=1&iter=727&theme=1&seed=816828380" target="_blank">demo-01</a></figcaption></figure>
 <figure><p><a href="demo-01b.png" target="_blank"><img src="thumbs/demo-01b.jpg"></a><figcaption><a href="https://rockingship.github.io/jsFractalZoom?x=-0.6702091879033242&y=0.458060975296821&r=1.3844843074877433e-11&a=0&iter=732&theme=1&seed=86252875" target="_blank">demo-01b</a></figcaption></figure>
@@ -132,7 +153,12 @@
 <figure><p><a href="demo-41.png" target="_blank"><img src="thumbs/demo-41.jpg"></a><figcaption><a href="https://rockingship.github.io/jsFractalZoom?x=0.35532663658206076&y=0.3334391254729598&r=0.000004284234014061755&a=0&density=0.006&iter=12184&theme=6&seed=887377319" target="_blank">demo-41</a></figcaption></figure>
 <figure><p><a href="demo-42.png" target="_blank"><img src="thumbs/demo-42.jpg"></a><figcaption><a href="https://rockingship.github.io/jsFractalZoom?x=-1.238046428763015&y=0.11499868490200446&r=2.1105673169751814e-9&a=0&density=0.0683&iter=1680&theme=0&seed=434731926" target="_blank">demo-42</a></figcaption></figure>
 <br clear="both">
-<p>Project page <a href="https://github.com/RockingShip/jsFractalZoom" target="_blank">https://github.com/RockingShip/jsFractalZoom</a></p>
+
+<hr/>
+<p>
+	<button onclick="window.location='https://RockingShip.github.io/jsFractalZoom/README.html'">&#x2343; README</button>
+	<button onclick="window.location='https://github.com/RockingShip/jsFractalZoom'">&#x2353; jsFractalZoom@github</button>
+	<button onclick="window.location='https://github.com/RockingShip/jsFractalZoom-media'">&#x2353; jsFractalZoom-media@github</button>
+</p>
 </body>
 </html>
-<!-- ffmpeg -i demo-X.png -vf scale=480:-1  thumbs/demo-X.jpg -->

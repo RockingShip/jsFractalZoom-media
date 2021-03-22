@@ -64,4 +64,5 @@ Using [SemVer](http://semver.org/) for versioning. For the versions available, s
 
 ## License
 
-This project is licensed under the GNU General Public License v3 - see the [LICENSE.txt](LICENSE.txt) file for details
+This project is licensed under the GNU General Public License v3 - see the [LICENSE.txt](LICENSE.txt) file for details.  
+The gallery is MIT licensed.

@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 NOTE: no versions/releases due to the size of the tarballs.
 
 ```
+2021-03-22 15:06:41 Changed: Modernized SEO headers.
 2021-03-22 14:54:16 Added: `moonwalk` theme.
 2021-03-22 14:41:28 Changed: renamed `jsFractalZoom.html` to `index.html`.
 2021-03-12 23:53:18 Added: `???-sbs-1800x506.mp4`.
