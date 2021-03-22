@@ -15,9 +15,6 @@ This project contains the media files for: [https://github.com/RockingShip/jsFra
 
 ## Manifest
 
-  - [https://rockingship.github.io/jsFractalZoom/jsFractalZoom.html](https://rockingship.github.io/jsFractalZoom/jsFractalZoom.html)  
-    The interactive fractal zoomer.
-
   - [gallery/index.html](https://rockingship.github.io/jsFractalZoom-media/gallery/index.html)  
     The fractal zoomer image gallery.
 

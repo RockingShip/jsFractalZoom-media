@@ -6,7 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
+NOTE: no versions/releases due to the size of the tarballs.
+
 ```
+2021-03-22 14:41:28 Changed: renamed `jsFractalZoom.html` to `index.html`.
 2021-03-12 23:53:18 Added: `???-sbs-1800x506.mp4`.
 2021-03-12 20:03:21 Added: `index.html`.
 2021-03-12 17:25:33 Added: `videos/'.
