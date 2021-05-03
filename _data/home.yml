@@ -2,18 +2,18 @@ navbar_entries:
   - title: "showcase"
     url: https://rockingship.github.io
 
-  - title: "jsFractalZoom"
+  - title: "jsFractalZoom <div class=\"RockingShip-mark\"></div>"
     url: https://rockingship.github.io/jsFractalZoom/README.html
 
-  - title: "jsFractalZoom-media@github"
+  - title: "jsFractalZoom-media <div class=\"GitHub-mark\"></div>"
     url: https://github.com/RockingShip/jsFractalZoom-media
 
 footer_entries:
   - title: "showcase"
     url: https://rockingship.github.io
 
-  - title: "jsFractalZoom"
+  - title: "jsFractalZoom <div class=\"RockingShip-mark\"></div>"
     url: https://rockingship.github.io/jsFractalZoom/README.html
 
-  - title: "jsFractalZoom-media@github"
+  - title: "jsFractalZoom-media <div class=\"GitHub-mark\"></div>"
     url: https://github.com/RockingShip/jsFractalZoom-media

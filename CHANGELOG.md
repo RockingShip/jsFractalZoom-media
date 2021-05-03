@@ -1,15 +1,15 @@
 # Changelog
+
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## Unreleased
-
-NOTE: no versions/releases due to the size of the tarballs.
+Media repositories have no releases due to their size.
 
 ```
-2021-03-22 22:35:42 Changed: item order in navbar.
+2021-05-03 14:38:22 Changed: Gallery links to actual html endpoint.
+2021-03-22 22:35:42 Changed: Item order in navbar.
 2021-03-22 15:06:41 Changed: Modernized SEO headers.
 2021-03-22 14:54:16 Added: `moonwalk` theme.
 2021-03-22 14:41:28 Changed: renamed `jsFractalZoom.html` to `index.html`.
